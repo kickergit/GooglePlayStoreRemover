@@ -6,7 +6,7 @@ rm -rf /data/data/com.andorid.vending
 rm -rf /data/app/com.andorid.vending
 mount -o remount,rw /product
 rm -rf /product/priv-app/Phonesky
-Gapps() {
+
   ui_print " "
   ui_print "------------------------------------------"
   ui_print "* *****   *   ***** ***** *****"
@@ -19,4 +19,3 @@ Gapps() {
   ui_print "XXXXXxGOOGLE PLAY STORE REMOVEDxXXXXX"
   ui_print "------------------------------------------"
   ui_print " "
-}
